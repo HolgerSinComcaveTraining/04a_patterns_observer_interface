@@ -1,6 +1,6 @@
 package com.cc.java;
 
-public class Helper {
+public class Logger {
 
     public static void ausgabe(String outputStr) {
         System.out.println(outputStr);  
@@ -19,7 +19,5 @@ public class Helper {
     public static void ausgabe(Object outputStr){
         System.out.println(outputStr);
     }
-
-
 
 }
