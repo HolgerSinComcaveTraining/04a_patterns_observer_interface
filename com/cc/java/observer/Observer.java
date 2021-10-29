@@ -16,7 +16,11 @@ public class Observer implements IObserve{
 
     @Override
     public void update() {
-        Logger.ausgabe("update");
+        String str = name + 
+                    ": observes, that subject has changed its state to: " + 
+                    s.getState();
+                    
+        Logger.ausgabe(str);
     }
 
 }
